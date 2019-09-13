@@ -1,0 +1,12 @@
+C:\Users\nelsr\source\repos\NOBUG HelloWorld\NOBUG HelloWorld\obj\Debug\NOBUG HelloWorld.vbprojAssemblyReference.cache
+C:\Users\nelsr\source\repos\NOBUG HelloWorld\NOBUG HelloWorld\obj\Debug\NOBUG_HelloWorld.bot.resources
+C:\Users\nelsr\source\repos\NOBUG HelloWorld\NOBUG HelloWorld\obj\Debug\NOBUG_HelloWorld.Resources.resources
+C:\Users\nelsr\source\repos\NOBUG HelloWorld\NOBUG HelloWorld\obj\Debug\NOBUG HelloWorld.vbproj.GenerateResource.cache
+C:\Users\nelsr\source\repos\NOBUG HelloWorld\NOBUG HelloWorld\obj\Debug\NOBUG HelloWorld.vbproj.CoreCompileInputs.cache
+C:\Users\nelsr\source\repos\NOBUG HelloWorld\NOBUG HelloWorld\bin\Debug\NOBUG HelloWorld.exe.config
+C:\Users\nelsr\source\repos\NOBUG HelloWorld\NOBUG HelloWorld\bin\Debug\NOBUG HelloWorld.exe
+C:\Users\nelsr\source\repos\NOBUG HelloWorld\NOBUG HelloWorld\bin\Debug\NOBUG HelloWorld.pdb
+C:\Users\nelsr\source\repos\NOBUG HelloWorld\NOBUG HelloWorld\bin\Debug\NOBUG HelloWorld.xml
+C:\Users\nelsr\source\repos\NOBUG HelloWorld\NOBUG HelloWorld\obj\Debug\NOBUG HelloWorld.exe
+C:\Users\nelsr\source\repos\NOBUG HelloWorld\NOBUG HelloWorld\obj\Debug\NOBUG HelloWorld.xml
+C:\Users\nelsr\source\repos\NOBUG HelloWorld\NOBUG HelloWorld\obj\Debug\NOBUG HelloWorld.pdb

@@ -1,0 +1,22 @@
+C:\Users\nelsr\source\repos\Say my Name\Say my Name\obj\Debug\Say my Name.vbprojAssemblyReference.cache
+C:\Users\nelsr\source\repos\Say my Name\Say my Name\obj\Debug\Say_my_Name.Resources.resources
+C:\Users\nelsr\source\repos\Say my Name\Say my Name\obj\Debug\Say my Name.vbproj.GenerateResource.cache
+C:\Users\nelsr\source\repos\Say my Name\Say my Name\obj\Debug\Say my Name.vbproj.CoreCompileInputs.cache
+C:\Users\nelsr\source\repos\Say my Name\Say my Name\bin\Debug\Say my Name.exe.config
+C:\Users\nelsr\source\repos\Say my Name\Say my Name\bin\Debug\Say my Name.exe
+C:\Users\nelsr\source\repos\Say my Name\Say my Name\bin\Debug\Say my Name.pdb
+C:\Users\nelsr\source\repos\Say my Name\Say my Name\bin\Debug\Say my Name.xml
+C:\Users\nelsr\source\repos\Say my Name\Say my Name\obj\Debug\Say my Name.exe
+C:\Users\nelsr\source\repos\Say my Name\Say my Name\obj\Debug\Say my Name.xml
+C:\Users\nelsr\source\repos\Say my Name\Say my Name\obj\Debug\Say my Name.pdb
+C:\Users\nelsr\Documents\GitHub\RJN-VS-F19\Say my Name\Say my Name\bin\Debug\Say my Name.exe.config
+C:\Users\nelsr\Documents\GitHub\RJN-VS-F19\Say my Name\Say my Name\bin\Debug\Say my Name.exe
+C:\Users\nelsr\Documents\GitHub\RJN-VS-F19\Say my Name\Say my Name\bin\Debug\Say my Name.pdb
+C:\Users\nelsr\Documents\GitHub\RJN-VS-F19\Say my Name\Say my Name\bin\Debug\Say my Name.xml
+C:\Users\nelsr\Documents\GitHub\RJN-VS-F19\Say my Name\Say my Name\obj\Debug\Say my Name.vbprojAssemblyReference.cache
+C:\Users\nelsr\Documents\GitHub\RJN-VS-F19\Say my Name\Say my Name\obj\Debug\Say_my_Name.Resources.resources
+C:\Users\nelsr\Documents\GitHub\RJN-VS-F19\Say my Name\Say my Name\obj\Debug\Say my Name.vbproj.GenerateResource.cache
+C:\Users\nelsr\Documents\GitHub\RJN-VS-F19\Say my Name\Say my Name\obj\Debug\Say my Name.vbproj.CoreCompileInputs.cache
+C:\Users\nelsr\Documents\GitHub\RJN-VS-F19\Say my Name\Say my Name\obj\Debug\Say my Name.exe
+C:\Users\nelsr\Documents\GitHub\RJN-VS-F19\Say my Name\Say my Name\obj\Debug\Say my Name.xml
+C:\Users\nelsr\Documents\GitHub\RJN-VS-F19\Say my Name\Say my Name\obj\Debug\Say my Name.pdb

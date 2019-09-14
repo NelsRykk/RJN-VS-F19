@@ -1,0 +1,10 @@
+C:\Users\nelsr\source\repos\Prime Numbers\Prime Numbers\obj\Debug\Prime Numbers.vbprojAssemblyReference.cache
+C:\Users\nelsr\source\repos\Prime Numbers\Prime Numbers\obj\Debug\Prime_Numbers.Resources.resources
+C:\Users\nelsr\source\repos\Prime Numbers\Prime Numbers\obj\Debug\Prime Numbers.vbproj.GenerateResource.cache
+C:\Users\nelsr\source\repos\Prime Numbers\Prime Numbers\obj\Debug\Prime Numbers.vbproj.CoreCompileInputs.cache
+C:\Users\nelsr\source\repos\Prime Numbers\Prime Numbers\bin\Debug\Prime Numbers.dll
+C:\Users\nelsr\source\repos\Prime Numbers\Prime Numbers\bin\Debug\Prime Numbers.pdb
+C:\Users\nelsr\source\repos\Prime Numbers\Prime Numbers\bin\Debug\Prime Numbers.xml
+C:\Users\nelsr\source\repos\Prime Numbers\Prime Numbers\obj\Debug\Prime Numbers.dll
+C:\Users\nelsr\source\repos\Prime Numbers\Prime Numbers\obj\Debug\Prime Numbers.xml
+C:\Users\nelsr\source\repos\Prime Numbers\Prime Numbers\obj\Debug\Prime Numbers.pdb

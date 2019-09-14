@@ -1,0 +1,22 @@
+C:\Users\nelsr\source\repos\Say your name\Say your name\obj\Debug\Say your name.vbprojAssemblyReference.cache
+C:\Users\nelsr\source\repos\Say your name\Say your name\obj\Debug\Say_your_name.Resources.resources
+C:\Users\nelsr\source\repos\Say your name\Say your name\obj\Debug\Say your name.vbproj.GenerateResource.cache
+C:\Users\nelsr\source\repos\Say your name\Say your name\obj\Debug\Say your name.vbproj.CoreCompileInputs.cache
+C:\Users\nelsr\source\repos\Say your name\Say your name\bin\Debug\Say your name.exe.config
+C:\Users\nelsr\source\repos\Say your name\Say your name\bin\Debug\Say your name.exe
+C:\Users\nelsr\source\repos\Say your name\Say your name\bin\Debug\Say your name.pdb
+C:\Users\nelsr\source\repos\Say your name\Say your name\bin\Debug\Say your name.xml
+C:\Users\nelsr\source\repos\Say your name\Say your name\obj\Debug\Say your name.exe
+C:\Users\nelsr\source\repos\Say your name\Say your name\obj\Debug\Say your name.xml
+C:\Users\nelsr\source\repos\Say your name\Say your name\obj\Debug\Say your name.pdb
+C:\Users\nelsr\Documents\GitHub\RJN-VS-F19\Say your name\Say your name\bin\Debug\Say your name.exe.config
+C:\Users\nelsr\Documents\GitHub\RJN-VS-F19\Say your name\Say your name\bin\Debug\Say your name.exe
+C:\Users\nelsr\Documents\GitHub\RJN-VS-F19\Say your name\Say your name\bin\Debug\Say your name.pdb
+C:\Users\nelsr\Documents\GitHub\RJN-VS-F19\Say your name\Say your name\bin\Debug\Say your name.xml
+C:\Users\nelsr\Documents\GitHub\RJN-VS-F19\Say your name\Say your name\obj\Debug\Say your name.vbprojAssemblyReference.cache
+C:\Users\nelsr\Documents\GitHub\RJN-VS-F19\Say your name\Say your name\obj\Debug\Say_your_name.Resources.resources
+C:\Users\nelsr\Documents\GitHub\RJN-VS-F19\Say your name\Say your name\obj\Debug\Say your name.vbproj.GenerateResource.cache
+C:\Users\nelsr\Documents\GitHub\RJN-VS-F19\Say your name\Say your name\obj\Debug\Say your name.vbproj.CoreCompileInputs.cache
+C:\Users\nelsr\Documents\GitHub\RJN-VS-F19\Say your name\Say your name\obj\Debug\Say your name.exe
+C:\Users\nelsr\Documents\GitHub\RJN-VS-F19\Say your name\Say your name\obj\Debug\Say your name.xml
+C:\Users\nelsr\Documents\GitHub\RJN-VS-F19\Say your name\Say your name\obj\Debug\Say your name.pdb

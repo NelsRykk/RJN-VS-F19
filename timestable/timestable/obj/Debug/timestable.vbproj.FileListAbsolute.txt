@@ -1,0 +1,11 @@
+C:\Users\nelsr\source\repos\timestable\timestable\obj\Debug\timestable.vbprojAssemblyReference.cache
+C:\Users\nelsr\source\repos\timestable\timestable\obj\Debug\timestable.Resources.resources
+C:\Users\nelsr\source\repos\timestable\timestable\obj\Debug\timestable.vbproj.GenerateResource.cache
+C:\Users\nelsr\source\repos\timestable\timestable\obj\Debug\timestable.vbproj.CoreCompileInputs.cache
+C:\Users\nelsr\source\repos\timestable\timestable\bin\Debug\timestable.exe.config
+C:\Users\nelsr\source\repos\timestable\timestable\bin\Debug\timestable.exe
+C:\Users\nelsr\source\repos\timestable\timestable\bin\Debug\timestable.pdb
+C:\Users\nelsr\source\repos\timestable\timestable\bin\Debug\timestable.xml
+C:\Users\nelsr\source\repos\timestable\timestable\obj\Debug\timestable.exe
+C:\Users\nelsr\source\repos\timestable\timestable\obj\Debug\timestable.xml
+C:\Users\nelsr\source\repos\timestable\timestable\obj\Debug\timestable.pdb

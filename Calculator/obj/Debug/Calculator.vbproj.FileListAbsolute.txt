@@ -1,0 +1,12 @@
+C:\Users\nelsr\source\repos\Calculator\bin\Debug\Calculator.exe.config
+C:\Users\nelsr\source\repos\Calculator\bin\Debug\Calculator.exe
+C:\Users\nelsr\source\repos\Calculator\bin\Debug\Calculator.pdb
+C:\Users\nelsr\source\repos\Calculator\bin\Debug\Calculator.xml
+C:\Users\nelsr\source\repos\Calculator\obj\Debug\Calculator.vbprojAssemblyReference.cache
+C:\Users\nelsr\source\repos\Calculator\obj\Debug\Calculator.Resources.resources
+C:\Users\nelsr\source\repos\Calculator\obj\Debug\Calculator.vbproj.GenerateResource.cache
+C:\Users\nelsr\source\repos\Calculator\obj\Debug\Calculator.vbproj.CoreCompileInputs.cache
+C:\Users\nelsr\source\repos\Calculator\obj\Debug\Calculator.exe
+C:\Users\nelsr\source\repos\Calculator\obj\Debug\Calculator.xml
+C:\Users\nelsr\source\repos\Calculator\obj\Debug\Calculator.pdb
+C:\Users\nelsr\source\repos\Calculator\obj\Debug\Calculator.Calculator.resources

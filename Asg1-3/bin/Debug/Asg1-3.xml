@@ -22,5 +22,45 @@ Asg1-3
   resource lookups using this strongly typed resource class.
 </summary>
 </member>
+<member name="P:Asg1_3.My.Resources.Resources.anon_hack">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Asg1_3.My.Resources.Resources.cool_black_wallpapers_9">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Asg1_3.My.Resources.Resources.d14475fe791892e50ca0dad67d8f35a0__michael_faraday_ballon_dor">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Asg1_3.My.Resources.Resources.Faraday">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Asg1_3.My.Resources.Resources.goodbye">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Asg1_3.My.Resources.Resources.MLK2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Asg1_3.My.Resources.Resources.og_isaac_newton_124">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Asg1_3.My.Resources.Resources.This_Is_Goodbye_For_now">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 </members>
 </doc>

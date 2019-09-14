@@ -9,3 +9,4 @@ C:\Users\nelsr\Documents\GitHub\RJN-VS-F19\Asg1-3\obj\Debug\Asg1-3.vbproj.CoreCo
 C:\Users\nelsr\Documents\GitHub\RJN-VS-F19\Asg1-3\obj\Debug\Asg1-3.exe
 C:\Users\nelsr\Documents\GitHub\RJN-VS-F19\Asg1-3\obj\Debug\Asg1-3.xml
 C:\Users\nelsr\Documents\GitHub\RJN-VS-F19\Asg1-3\obj\Debug\Asg1-3.pdb
+C:\Users\nelsr\Documents\GitHub\RJN-VS-F19\Asg1-3\obj\Debug\Asg1_3.Form1.resources

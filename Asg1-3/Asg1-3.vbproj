@@ -73,11 +73,11 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.vb">
+    <Compile Include="Asg 1-3.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.vb">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <Compile Include="Asg 1-3.Designer.vb">
+      <DependentUpon>Asg 1-3.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -97,6 +97,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Asg 1-3.resx">
+      <DependentUpon>Asg 1-3.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
@@ -115,6 +118,30 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pictures\MLK2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pictures\og-isaac-newton-124.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pictures\d14475fe791892e50ca0dad67d8f35a0--michael-faraday-ballon-dor.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pictures\Faraday.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pictures\anon-hack.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pictures\This-Is-Goodbye-For-now.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pictures\goodbye.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pictures\cool black wallpapers 9.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

@@ -22,5 +22,20 @@ Asg 1-5
   resource lookups using this strongly typed resource class.
 </summary>
 </member>
+<member name="P:Asg_1_5.My.Resources.Resources.Drinks">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Asg_1_5.My.Resources.Resources.Pizza_by_the_slice">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Asg_1_5.My.Resources.Resources.SuperSalad">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 </members>
 </doc>

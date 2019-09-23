@@ -22,6 +22,11 @@ Asg 2-6
   resource lookups using this strongly typed resource class.
 </summary>
 </member>
+<member name="P:Asg_2_6.My.Resources.Resources._41ANJDAT1DL__SX425_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:Asg_2_6.My.Resources.Resources.California">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -48,6 +53,11 @@ Asg 2-6
 </summary>
 </member>
 <member name="P:Asg_2_6.My.Resources.Resources.Washington">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Asg_2_6.My.Resources.Resources.Wyoming_wy_3x5_Polyester_nylon_flag">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>

@@ -10,3 +10,15 @@ C:\Users\nelsr\Documents\GitHub\RJN-VS-F19\Asg2-6\Asg 2-6\obj\Debug\Asg 2-6.vbpr
 C:\Users\nelsr\Documents\GitHub\RJN-VS-F19\Asg2-6\Asg 2-6\obj\Debug\Asg 2-6.exe
 C:\Users\nelsr\Documents\GitHub\RJN-VS-F19\Asg2-6\Asg 2-6\obj\Debug\Asg 2-6.xml
 C:\Users\nelsr\Documents\GitHub\RJN-VS-F19\Asg2-6\Asg 2-6\obj\Debug\Asg 2-6.pdb
+C:\Users\nelsr\Documents\GitHub\RJN-VS-F19\RJN-VS-F19\Asg2-6\Asg 2-6\bin\Debug\Asg 2-6.exe.config
+C:\Users\nelsr\Documents\GitHub\RJN-VS-F19\RJN-VS-F19\Asg2-6\Asg 2-6\bin\Debug\Asg 2-6.exe
+C:\Users\nelsr\Documents\GitHub\RJN-VS-F19\RJN-VS-F19\Asg2-6\Asg 2-6\bin\Debug\Asg 2-6.pdb
+C:\Users\nelsr\Documents\GitHub\RJN-VS-F19\RJN-VS-F19\Asg2-6\Asg 2-6\bin\Debug\Asg 2-6.xml
+C:\Users\nelsr\Documents\GitHub\RJN-VS-F19\RJN-VS-F19\Asg2-6\Asg 2-6\obj\Debug\Asg 2-6.vbprojAssemblyReference.cache
+C:\Users\nelsr\Documents\GitHub\RJN-VS-F19\RJN-VS-F19\Asg2-6\Asg 2-6\obj\Debug\Asg_2_6.Form1.resources
+C:\Users\nelsr\Documents\GitHub\RJN-VS-F19\RJN-VS-F19\Asg2-6\Asg 2-6\obj\Debug\Asg_2_6.Resources.resources
+C:\Users\nelsr\Documents\GitHub\RJN-VS-F19\RJN-VS-F19\Asg2-6\Asg 2-6\obj\Debug\Asg 2-6.vbproj.GenerateResource.cache
+C:\Users\nelsr\Documents\GitHub\RJN-VS-F19\RJN-VS-F19\Asg2-6\Asg 2-6\obj\Debug\Asg 2-6.vbproj.CoreCompileInputs.cache
+C:\Users\nelsr\Documents\GitHub\RJN-VS-F19\RJN-VS-F19\Asg2-6\Asg 2-6\obj\Debug\Asg 2-6.exe
+C:\Users\nelsr\Documents\GitHub\RJN-VS-F19\RJN-VS-F19\Asg2-6\Asg 2-6\obj\Debug\Asg 2-6.xml
+C:\Users\nelsr\Documents\GitHub\RJN-VS-F19\RJN-VS-F19\Asg2-6\Asg 2-6\obj\Debug\Asg 2-6.pdb

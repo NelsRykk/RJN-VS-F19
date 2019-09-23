@@ -2,7 +2,7 @@
 'RCET0265
 'asg2-6
 'State flag viewer program
-'
+'https://github.com/NelsRykk/RJN-VS-F19/tree/master/Asg2-6/Asg%202-6
 
 Option Explicit On
 Option Strict On

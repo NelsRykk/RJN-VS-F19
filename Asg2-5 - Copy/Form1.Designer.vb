@@ -67,7 +67,7 @@ Partial Class Form1
         Me.MaskedTextBox1.Size = New System.Drawing.Size(274, 20)
         Me.MaskedTextBox1.SkipLiterals = False
         Me.MaskedTextBox1.TabIndex = 1
-        Me.ToolTip1.SetToolTip(Me.MaskedTextBox1, "" & Global.Microsoft.VisualBasic.ChrW(13) & "Label" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10))
+        Me.ToolTip1.SetToolTip(Me.MaskedTextBox1, "Type in " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "first name")
         '
         'Label1
         '
@@ -84,6 +84,7 @@ Partial Class Form1
         Me.MaskedTextBox2.Name = "MaskedTextBox2"
         Me.MaskedTextBox2.Size = New System.Drawing.Size(274, 20)
         Me.MaskedTextBox2.TabIndex = 3
+        Me.ToolTip1.SetToolTip(Me.MaskedTextBox2, "Type in last name")
         '
         'MaskedTextBox3
         '
@@ -91,6 +92,7 @@ Partial Class Form1
         Me.MaskedTextBox3.Name = "MaskedTextBox3"
         Me.MaskedTextBox3.Size = New System.Drawing.Size(274, 20)
         Me.MaskedTextBox3.TabIndex = 4
+        Me.ToolTip1.SetToolTip(Me.MaskedTextBox3, "type in address ")
         '
         'MaskedTextBox4
         '
@@ -98,6 +100,7 @@ Partial Class Form1
         Me.MaskedTextBox4.Name = "MaskedTextBox4"
         Me.MaskedTextBox4.Size = New System.Drawing.Size(274, 20)
         Me.MaskedTextBox4.TabIndex = 5
+        Me.ToolTip1.SetToolTip(Me.MaskedTextBox4, "Type in City")
         '
         'MaskedTextBox5
         '
@@ -105,13 +108,16 @@ Partial Class Form1
         Me.MaskedTextBox5.Name = "MaskedTextBox5"
         Me.MaskedTextBox5.Size = New System.Drawing.Size(85, 20)
         Me.MaskedTextBox5.TabIndex = 6
+        Me.ToolTip1.SetToolTip(Me.MaskedTextBox5, "Type in  state")
         '
         'MaskedTextBox6
         '
         Me.MaskedTextBox6.Location = New System.Drawing.Point(140, 381)
+        Me.MaskedTextBox6.Margin = New System.Windows.Forms.Padding(0, 0, 0, 0)
         Me.MaskedTextBox6.Name = "MaskedTextBox6"
         Me.MaskedTextBox6.Size = New System.Drawing.Size(85, 20)
-        Me.MaskedTextBox6.TabIndex = 7
+        Me.MaskedTextBox6.TabIndex = 0
+        Me.ToolTip1.SetToolTip(Me.MaskedTextBox6, "Type in Zip code")
         '
         'Label2
         '
@@ -171,8 +177,10 @@ Partial Class Form1
         '
         'Display
         '
+        Me.Display.AccessibleName = ""
         Me.Display.BackColor = System.Drawing.SystemColors.GradientActiveCaption
         Me.Display.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Display.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.Display.Location = New System.Drawing.Point(461, 381)
         Me.Display.Name = "Display"
         Me.Display.RightToLeft = System.Windows.Forms.RightToLeft.No
@@ -205,9 +213,9 @@ Partial Class Form1
         Me.AddDisplay.Font = New System.Drawing.Font("Times New Roman", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.AddDisplay.ForeColor = System.Drawing.SystemColors.WindowText
         Me.AddDisplay.Location = New System.Drawing.Point(0, 3)
+        Me.AddDisplay.Margin = New System.Windows.Forms.Padding(0)
         Me.AddDisplay.Name = "AddDisplay"
         Me.AddDisplay.ReadOnly = True
-        Me.AddDisplay.RightMargin = 1
         Me.AddDisplay.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.AddDisplay.Size = New System.Drawing.Size(350, 325)
         Me.AddDisplay.TabIndex = 100
@@ -234,6 +242,7 @@ Partial Class Form1
         '
         'Form1
         '
+        Me.AcceptButton = Me.Display
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.Info
@@ -288,5 +297,5 @@ Partial Class Form1
     Friend WithEvents Label7 As Label
     Friend WithEvents Label8 As Label
     Friend WithEvents ToolTip1 As ToolTip
-    Friend WithEvents AddDisplay As RichTextBox
+    Public WithEvents AddDisplay As RichTextBox
 End Class

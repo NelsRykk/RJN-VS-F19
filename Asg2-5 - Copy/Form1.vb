@@ -2,7 +2,7 @@
 'RCET0265
 'asg2-5
 'Address label display program
-'
+'https://github.com/NelsRykk/RJN-VS-F19/tree/master/Asg2-5%20-%20Copy
 
 
 Option Explicit On
@@ -39,8 +39,8 @@ Public Class Form1
         Label1.Text = "First Name"
         Label2.Text = "Last Name"
         Label3.Text = "Adress"
-        Label4.Text = "State"
-        Label5.Text = "City"
+        Label4.Text = "City"
+        Label5.Text = "State"
         Label6.Text = "Zip Code"
         AddDisplay.Text = ""
         MaskedTextBox1.Select()

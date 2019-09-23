@@ -22,3 +22,15 @@ C:\Users\nelsr\Documents\GitHub\RJN-VS-F19\RJN-VS-F19\Asg2-5\Asg2-5\obj\Debug\As
 C:\Users\nelsr\Documents\GitHub\RJN-VS-F19\RJN-VS-F19\Asg2-5\Asg2-5\obj\Debug\Asg2-5.exe
 C:\Users\nelsr\Documents\GitHub\RJN-VS-F19\RJN-VS-F19\Asg2-5\Asg2-5\obj\Debug\Asg2-5.xml
 C:\Users\nelsr\Documents\GitHub\RJN-VS-F19\RJN-VS-F19\Asg2-5\Asg2-5\obj\Debug\Asg2-5.pdb
+C:\Users\nelsr\Documents\GitHub\RJN-VS-F19\RJN-VS-F19\Asg2-5 - Copy\bin\Debug\Asg2-5.exe.config
+C:\Users\nelsr\Documents\GitHub\RJN-VS-F19\RJN-VS-F19\Asg2-5 - Copy\bin\Debug\Asg2-5.exe
+C:\Users\nelsr\Documents\GitHub\RJN-VS-F19\RJN-VS-F19\Asg2-5 - Copy\bin\Debug\Asg2-5.pdb
+C:\Users\nelsr\Documents\GitHub\RJN-VS-F19\RJN-VS-F19\Asg2-5 - Copy\bin\Debug\Asg2-5.xml
+C:\Users\nelsr\Documents\GitHub\RJN-VS-F19\RJN-VS-F19\Asg2-5 - Copy\obj\Debug\Asg2-5.vbprojAssemblyReference.cache
+C:\Users\nelsr\Documents\GitHub\RJN-VS-F19\RJN-VS-F19\Asg2-5 - Copy\obj\Debug\Asg2_5.Form1.resources
+C:\Users\nelsr\Documents\GitHub\RJN-VS-F19\RJN-VS-F19\Asg2-5 - Copy\obj\Debug\Asg2_5.Resources.resources
+C:\Users\nelsr\Documents\GitHub\RJN-VS-F19\RJN-VS-F19\Asg2-5 - Copy\obj\Debug\Asg2-5.vbproj.GenerateResource.cache
+C:\Users\nelsr\Documents\GitHub\RJN-VS-F19\RJN-VS-F19\Asg2-5 - Copy\obj\Debug\Asg2-5.vbproj.CoreCompileInputs.cache
+C:\Users\nelsr\Documents\GitHub\RJN-VS-F19\RJN-VS-F19\Asg2-5 - Copy\obj\Debug\Asg2-5.exe
+C:\Users\nelsr\Documents\GitHub\RJN-VS-F19\RJN-VS-F19\Asg2-5 - Copy\obj\Debug\Asg2-5.xml
+C:\Users\nelsr\Documents\GitHub\RJN-VS-F19\RJN-VS-F19\Asg2-5 - Copy\obj\Debug\Asg2-5.pdb

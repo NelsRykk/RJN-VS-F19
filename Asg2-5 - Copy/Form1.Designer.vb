@@ -55,7 +55,7 @@ Partial Class Form1
         Me.leave.Location = New System.Drawing.Point(710, 381)
         Me.leave.Name = "leave"
         Me.leave.Size = New System.Drawing.Size(98, 52)
-        Me.leave.TabIndex = 10
+        Me.leave.TabIndex = 8
         Me.leave.TabStop = False
         Me.leave.Text = "&Exit"
         Me.leave.UseVisualStyleBackColor = False
@@ -66,7 +66,7 @@ Partial Class Form1
         Me.MaskedTextBox1.Name = "MaskedTextBox1"
         Me.MaskedTextBox1.Size = New System.Drawing.Size(274, 20)
         Me.MaskedTextBox1.SkipLiterals = False
-        Me.MaskedTextBox1.TabIndex = 1
+        Me.MaskedTextBox1.TabIndex = 0
         Me.ToolTip1.SetToolTip(Me.MaskedTextBox1, "Type in " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "first name")
         '
         'Label1
@@ -83,7 +83,7 @@ Partial Class Form1
         Me.MaskedTextBox2.Location = New System.Drawing.Point(140, 134)
         Me.MaskedTextBox2.Name = "MaskedTextBox2"
         Me.MaskedTextBox2.Size = New System.Drawing.Size(274, 20)
-        Me.MaskedTextBox2.TabIndex = 3
+        Me.MaskedTextBox2.TabIndex = 1
         Me.ToolTip1.SetToolTip(Me.MaskedTextBox2, "Type in last name")
         '
         'MaskedTextBox3
@@ -91,7 +91,7 @@ Partial Class Form1
         Me.MaskedTextBox3.Location = New System.Drawing.Point(140, 190)
         Me.MaskedTextBox3.Name = "MaskedTextBox3"
         Me.MaskedTextBox3.Size = New System.Drawing.Size(274, 20)
-        Me.MaskedTextBox3.TabIndex = 4
+        Me.MaskedTextBox3.TabIndex = 2
         Me.ToolTip1.SetToolTip(Me.MaskedTextBox3, "type in address ")
         '
         'MaskedTextBox4
@@ -99,7 +99,7 @@ Partial Class Form1
         Me.MaskedTextBox4.Location = New System.Drawing.Point(140, 248)
         Me.MaskedTextBox4.Name = "MaskedTextBox4"
         Me.MaskedTextBox4.Size = New System.Drawing.Size(274, 20)
-        Me.MaskedTextBox4.TabIndex = 5
+        Me.MaskedTextBox4.TabIndex = 3
         Me.ToolTip1.SetToolTip(Me.MaskedTextBox4, "Type in City")
         '
         'MaskedTextBox5
@@ -107,16 +107,16 @@ Partial Class Form1
         Me.MaskedTextBox5.Location = New System.Drawing.Point(140, 328)
         Me.MaskedTextBox5.Name = "MaskedTextBox5"
         Me.MaskedTextBox5.Size = New System.Drawing.Size(85, 20)
-        Me.MaskedTextBox5.TabIndex = 6
+        Me.MaskedTextBox5.TabIndex = 4
         Me.ToolTip1.SetToolTip(Me.MaskedTextBox5, "Type in  state")
         '
         'MaskedTextBox6
         '
         Me.MaskedTextBox6.Location = New System.Drawing.Point(140, 381)
-        Me.MaskedTextBox6.Margin = New System.Windows.Forms.Padding(0, 0, 0, 0)
+        Me.MaskedTextBox6.Margin = New System.Windows.Forms.Padding(0)
         Me.MaskedTextBox6.Name = "MaskedTextBox6"
         Me.MaskedTextBox6.Size = New System.Drawing.Size(85, 20)
-        Me.MaskedTextBox6.TabIndex = 0
+        Me.MaskedTextBox6.TabIndex = 5
         Me.ToolTip1.SetToolTip(Me.MaskedTextBox6, "Type in Zip code")
         '
         'Label2
@@ -171,7 +171,7 @@ Partial Class Form1
         Me.Clear.Location = New System.Drawing.Point(585, 381)
         Me.Clear.Name = "Clear"
         Me.Clear.Size = New System.Drawing.Size(98, 52)
-        Me.Clear.TabIndex = 9
+        Me.Clear.TabIndex = 7
         Me.Clear.Text = "Clear"
         Me.Clear.UseVisualStyleBackColor = False
         '
@@ -185,7 +185,7 @@ Partial Class Form1
         Me.Display.Name = "Display"
         Me.Display.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.Display.Size = New System.Drawing.Size(98, 52)
-        Me.Display.TabIndex = 8
+        Me.Display.TabIndex = 6
         Me.Display.Text = "Display"
         Me.Display.UseVisualStyleBackColor = False
         '

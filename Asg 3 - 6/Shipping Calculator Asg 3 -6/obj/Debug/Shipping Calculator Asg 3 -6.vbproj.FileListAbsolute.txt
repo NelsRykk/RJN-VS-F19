@@ -1,0 +1,12 @@
+C:\Users\nelsr\Documents\GitHub\RJN-VS-F19\RJN-VS-F19\Asg 3 - 6\Shipping Calculator Asg 3 -6\bin\Debug\Shipping Calculator Asg 3 -6.exe.config
+C:\Users\nelsr\Documents\GitHub\RJN-VS-F19\RJN-VS-F19\Asg 3 - 6\Shipping Calculator Asg 3 -6\bin\Debug\Shipping Calculator Asg 3 -6.exe
+C:\Users\nelsr\Documents\GitHub\RJN-VS-F19\RJN-VS-F19\Asg 3 - 6\Shipping Calculator Asg 3 -6\bin\Debug\Shipping Calculator Asg 3 -6.pdb
+C:\Users\nelsr\Documents\GitHub\RJN-VS-F19\RJN-VS-F19\Asg 3 - 6\Shipping Calculator Asg 3 -6\bin\Debug\Shipping Calculator Asg 3 -6.xml
+C:\Users\nelsr\Documents\GitHub\RJN-VS-F19\RJN-VS-F19\Asg 3 - 6\Shipping Calculator Asg 3 -6\obj\Debug\Shipping Calculator Asg 3 -6.vbprojAssemblyReference.cache
+C:\Users\nelsr\Documents\GitHub\RJN-VS-F19\RJN-VS-F19\Asg 3 - 6\Shipping Calculator Asg 3 -6\obj\Debug\Shipping_Calculator_Asg_3__6.Form1.resources
+C:\Users\nelsr\Documents\GitHub\RJN-VS-F19\RJN-VS-F19\Asg 3 - 6\Shipping Calculator Asg 3 -6\obj\Debug\Shipping_Calculator_Asg_3__6.Resources.resources
+C:\Users\nelsr\Documents\GitHub\RJN-VS-F19\RJN-VS-F19\Asg 3 - 6\Shipping Calculator Asg 3 -6\obj\Debug\Shipping Calculator Asg 3 -6.vbproj.GenerateResource.cache
+C:\Users\nelsr\Documents\GitHub\RJN-VS-F19\RJN-VS-F19\Asg 3 - 6\Shipping Calculator Asg 3 -6\obj\Debug\Shipping Calculator Asg 3 -6.vbproj.CoreCompileInputs.cache
+C:\Users\nelsr\Documents\GitHub\RJN-VS-F19\RJN-VS-F19\Asg 3 - 6\Shipping Calculator Asg 3 -6\obj\Debug\Shipping Calculator Asg 3 -6.exe
+C:\Users\nelsr\Documents\GitHub\RJN-VS-F19\RJN-VS-F19\Asg 3 - 6\Shipping Calculator Asg 3 -6\obj\Debug\Shipping Calculator Asg 3 -6.xml
+C:\Users\nelsr\Documents\GitHub\RJN-VS-F19\RJN-VS-F19\Asg 3 - 6\Shipping Calculator Asg 3 -6\obj\Debug\Shipping Calculator Asg 3 -6.pdb

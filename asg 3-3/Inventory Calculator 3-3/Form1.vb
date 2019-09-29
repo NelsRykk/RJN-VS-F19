@@ -2,7 +2,7 @@
 'RCET0265
 'asg 3-3 
 'Inventory Calculator
-'https://github.com/NelsRykk/RJN-VS-F19/tree/master/Asg2-5%20-%20Copy
+'https://github.com/NelsRykk/RJN-VS-F19/tree/master/asg%203-3/Inventory%20Calculator%203-3
 
 Option Strict On
 Option Explicit On
@@ -37,8 +37,8 @@ Public Class Form1
 
                 average = Math.Round((beginning + ending) / 2, 2)
                 turn = Math.Round(goods / average, 2)
-                averageIn.Text = average
-                turnOver.Text = turn
+                averageIn.Text = CStr(average)
+                turnOver.Text = CStr(turn)
 
 
             Catch ex As Exception

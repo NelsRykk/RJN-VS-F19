@@ -22,20 +22,22 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Me.IDCode = New System.Windows.Forms.RichTextBox()
         Me.pound = New System.Windows.Forms.RichTextBox()
         Me.oz = New System.Windows.Forms.RichTextBox()
         Me.shipCost = New System.Windows.Forms.RichTextBox()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.calculateButton = New System.Windows.Forms.Button()
         Me.clearButton = New System.Windows.Forms.Button()
         Me.exitButton = New System.Windows.Forms.Button()
+        Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         Me.SuspendLayout()
@@ -88,25 +90,25 @@ Partial Class Form1
         Me.GroupBox1.TabIndex = 100
         Me.GroupBox1.TabStop = False
         '
-        'GroupBox2
+        'Label4
         '
-        Me.GroupBox2.Controls.Add(Me.Label5)
-        Me.GroupBox2.Controls.Add(Me.shipCost)
-        Me.GroupBox2.Location = New System.Drawing.Point(442, 24)
-        Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(335, 299)
-        Me.GroupBox2.TabIndex = 100
-        Me.GroupBox2.TabStop = False
+        Me.Label4.AutoSize = True
+        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Location = New System.Drawing.Point(42, 157)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(227, 24)
+        Me.Label4.TabIndex = 6
+        Me.Label4.Text = "Package Shipping Weight"
         '
-        'Label1
+        'Label3
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(158, 214)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(39, 24)
-        Me.Label1.TabIndex = 3
-        Me.Label1.Text = ".lbs"
+        Me.Label3.AutoSize = True
+        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Location = New System.Drawing.Point(42, 30)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(134, 24)
+        Me.Label3.TabIndex = 5
+        Me.Label3.Text = "6 Digit ID Code"
         '
         'Label2
         '
@@ -118,25 +120,25 @@ Partial Class Form1
         Me.Label2.TabIndex = 4
         Me.Label2.Text = ".oz"
         '
-        'Label3
+        'Label1
         '
-        Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(42, 31)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(134, 24)
-        Me.Label3.TabIndex = 5
-        Me.Label3.Text = "6 Digit ID Code"
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(158, 214)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(39, 24)
+        Me.Label1.TabIndex = 3
+        Me.Label1.Text = ".lbs"
         '
-        'Label4
+        'GroupBox2
         '
-        Me.Label4.AutoSize = True
-        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(42, 157)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(227, 24)
-        Me.Label4.TabIndex = 6
-        Me.Label4.Text = "Package Shipping Weight"
+        Me.GroupBox2.Controls.Add(Me.Label5)
+        Me.GroupBox2.Controls.Add(Me.shipCost)
+        Me.GroupBox2.Location = New System.Drawing.Point(442, 24)
+        Me.GroupBox2.Name = "GroupBox2"
+        Me.GroupBox2.Size = New System.Drawing.Size(335, 299)
+        Me.GroupBox2.TabIndex = 100
+        Me.GroupBox2.TabStop = False
         '
         'Label5
         '
@@ -155,7 +157,7 @@ Partial Class Form1
         Me.calculateButton.Name = "calculateButton"
         Me.calculateButton.Size = New System.Drawing.Size(261, 109)
         Me.calculateButton.TabIndex = 3
-        Me.calculateButton.Text = "Calculate"
+        Me.calculateButton.Text = "&Calculate"
         Me.calculateButton.UseVisualStyleBackColor = True
         '
         'clearButton
@@ -165,11 +167,12 @@ Partial Class Form1
         Me.clearButton.Name = "clearButton"
         Me.clearButton.Size = New System.Drawing.Size(157, 109)
         Me.clearButton.TabIndex = 4
-        Me.clearButton.Text = "Clear"
+        Me.clearButton.Text = "&Clear"
         Me.clearButton.UseVisualStyleBackColor = True
         '
         'exitButton
         '
+        Me.exitButton.DialogResult = System.Windows.Forms.DialogResult.Cancel
         Me.exitButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.exitButton.Location = New System.Drawing.Point(593, 329)
         Me.exitButton.Name = "exitButton"
@@ -180,8 +183,10 @@ Partial Class Form1
         '
         'Form1
         '
+        Me.AcceptButton = Me.calculateButton
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.CancelButton = Me.exitButton
         Me.ClientSize = New System.Drawing.Size(800, 450)
         Me.Controls.Add(Me.exitButton)
         Me.Controls.Add(Me.clearButton)
@@ -212,4 +217,5 @@ Partial Class Form1
     Friend WithEvents calculateButton As Button
     Friend WithEvents clearButton As Button
     Friend WithEvents exitButton As Button
+    Friend WithEvents ToolTip1 As ToolTip
 End Class

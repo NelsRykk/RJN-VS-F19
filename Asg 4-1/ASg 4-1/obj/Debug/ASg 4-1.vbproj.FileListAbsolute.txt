@@ -1,0 +1,12 @@
+C:\Users\nelsr\Documents\GitHub\RJN-VS-F19\RJN-VS-F19\Asg 4-1\ASg 4-1\obj\Debug\ASg 4-1.vbprojAssemblyReference.cache
+C:\Users\nelsr\Documents\GitHub\RJN-VS-F19\RJN-VS-F19\Asg 4-1\ASg 4-1\obj\Debug\ASg_4_1.Resources.resources
+C:\Users\nelsr\Documents\GitHub\RJN-VS-F19\RJN-VS-F19\Asg 4-1\ASg 4-1\obj\Debug\ASg 4-1.vbproj.GenerateResource.cache
+C:\Users\nelsr\Documents\GitHub\RJN-VS-F19\RJN-VS-F19\Asg 4-1\ASg 4-1\obj\Debug\ASg 4-1.vbproj.CoreCompileInputs.cache
+C:\Users\nelsr\Documents\GitHub\RJN-VS-F19\RJN-VS-F19\Asg 4-1\ASg 4-1\obj\Debug\ASg_4_1.Project1.resources
+C:\Users\nelsr\Documents\GitHub\RJN-VS-F19\RJN-VS-F19\Asg 4-1\ASg 4-1\bin\Debug\ASg 4-1.exe.config
+C:\Users\nelsr\Documents\GitHub\RJN-VS-F19\RJN-VS-F19\Asg 4-1\ASg 4-1\bin\Debug\ASg 4-1.exe
+C:\Users\nelsr\Documents\GitHub\RJN-VS-F19\RJN-VS-F19\Asg 4-1\ASg 4-1\bin\Debug\ASg 4-1.pdb
+C:\Users\nelsr\Documents\GitHub\RJN-VS-F19\RJN-VS-F19\Asg 4-1\ASg 4-1\bin\Debug\ASg 4-1.xml
+C:\Users\nelsr\Documents\GitHub\RJN-VS-F19\RJN-VS-F19\Asg 4-1\ASg 4-1\obj\Debug\ASg 4-1.exe
+C:\Users\nelsr\Documents\GitHub\RJN-VS-F19\RJN-VS-F19\Asg 4-1\ASg 4-1\obj\Debug\ASg 4-1.xml
+C:\Users\nelsr\Documents\GitHub\RJN-VS-F19\RJN-VS-F19\Asg 4-1\ASg 4-1\obj\Debug\ASg 4-1.pdb

@@ -1,0 +1,12 @@
+C:\Users\nelsr\Documents\GitHub\RJN-VS-F19\RJN-VS-F19\Asg 4-6\ASG 4-6  , Menus\obj\Debug\ASG 4-6  , Menus.vbprojAssemblyReference.cache
+C:\Users\nelsr\Documents\GitHub\RJN-VS-F19\RJN-VS-F19\Asg 4-6\ASG 4-6  , Menus\obj\Debug\ASG_4_6____Menus.Form1.resources
+C:\Users\nelsr\Documents\GitHub\RJN-VS-F19\RJN-VS-F19\Asg 4-6\ASG 4-6  , Menus\obj\Debug\ASG_4_6____Menus.Resources.resources
+C:\Users\nelsr\Documents\GitHub\RJN-VS-F19\RJN-VS-F19\Asg 4-6\ASG 4-6  , Menus\obj\Debug\ASG 4-6  , Menus.vbproj.GenerateResource.cache
+C:\Users\nelsr\Documents\GitHub\RJN-VS-F19\RJN-VS-F19\Asg 4-6\ASG 4-6  , Menus\obj\Debug\ASG 4-6  , Menus.vbproj.CoreCompileInputs.cache
+C:\Users\nelsr\Documents\GitHub\RJN-VS-F19\RJN-VS-F19\Asg 4-6\ASG 4-6  , Menus\bin\Debug\ASG 4-6  , Menus.exe.config
+C:\Users\nelsr\Documents\GitHub\RJN-VS-F19\RJN-VS-F19\Asg 4-6\ASG 4-6  , Menus\bin\Debug\ASG 4-6  , Menus.exe
+C:\Users\nelsr\Documents\GitHub\RJN-VS-F19\RJN-VS-F19\Asg 4-6\ASG 4-6  , Menus\bin\Debug\ASG 4-6  , Menus.pdb
+C:\Users\nelsr\Documents\GitHub\RJN-VS-F19\RJN-VS-F19\Asg 4-6\ASG 4-6  , Menus\bin\Debug\ASG 4-6  , Menus.xml
+C:\Users\nelsr\Documents\GitHub\RJN-VS-F19\RJN-VS-F19\Asg 4-6\ASG 4-6  , Menus\obj\Debug\ASG 4-6  , Menus.exe
+C:\Users\nelsr\Documents\GitHub\RJN-VS-F19\RJN-VS-F19\Asg 4-6\ASG 4-6  , Menus\obj\Debug\ASG 4-6  , Menus.xml
+C:\Users\nelsr\Documents\GitHub\RJN-VS-F19\RJN-VS-F19\Asg 4-6\ASG 4-6  , Menus\obj\Debug\ASG 4-6  , Menus.pdb

@@ -46,11 +46,11 @@ Partial Class Project1
         Me.summaryButton = New System.Windows.Forms.Button()
         Me.exitButton = New System.Windows.Forms.Button()
         Me.GroupBox4 = New System.Windows.Forms.GroupBox()
-        Me.GroupBox1.SuspendLayout()
-        Me.GroupBox2.SuspendLayout()
-        Me.GroupBox3.SuspendLayout()
-        Me.GroupBox4.SuspendLayout()
-        Me.SuspendLayout()
+        Me.GroupBox1.SuspendLayout
+        Me.GroupBox2.SuspendLayout
+        Me.GroupBox3.SuspendLayout
+        Me.GroupBox4.SuspendLayout
+        Me.SuspendLayout
         '
         'nameBox
         '
@@ -66,6 +66,7 @@ Partial Class Project1
         Me.firstNumberBox.Name = "firstNumberBox"
         Me.firstNumberBox.Size = New System.Drawing.Size(321, 43)
         Me.firstNumberBox.TabIndex = 3
+        Me.firstNumberBox.TabStop = False
         Me.firstNumberBox.Text = ""
         '
         'secondNumberBox
@@ -74,6 +75,7 @@ Partial Class Project1
         Me.secondNumberBox.Name = "secondNumberBox"
         Me.secondNumberBox.Size = New System.Drawing.Size(321, 43)
         Me.secondNumberBox.TabIndex = 4
+        Me.secondNumberBox.TabStop = False
         Me.secondNumberBox.Text = ""
         '
         'answerBox
@@ -193,7 +195,7 @@ Partial Class Project1
         Me.RadioButtonAdd.Location = New System.Drawing.Point(43, 52)
         Me.RadioButtonAdd.Name = "RadioButtonAdd"
         Me.RadioButtonAdd.Size = New System.Drawing.Size(68, 29)
-        Me.RadioButtonAdd.TabIndex = 8
+        Me.RadioButtonAdd.TabIndex = 3
         Me.RadioButtonAdd.TabStop = True
         Me.RadioButtonAdd.Text = "Add"
         Me.RadioButtonAdd.UseVisualStyleBackColor = True
@@ -205,7 +207,7 @@ Partial Class Project1
         Me.RadioButtonSubtract.Location = New System.Drawing.Point(43, 116)
         Me.RadioButtonSubtract.Name = "RadioButtonSubtract"
         Me.RadioButtonSubtract.Size = New System.Drawing.Size(110, 29)
-        Me.RadioButtonSubtract.TabIndex = 9
+        Me.RadioButtonSubtract.TabIndex = 4
         Me.RadioButtonSubtract.TabStop = True
         Me.RadioButtonSubtract.Text = "Subtract"
         Me.RadioButtonSubtract.UseVisualStyleBackColor = True
@@ -217,7 +219,7 @@ Partial Class Project1
         Me.RadioButtonMultiply.Location = New System.Drawing.Point(43, 171)
         Me.RadioButtonMultiply.Name = "RadioButtonMultiply"
         Me.RadioButtonMultiply.Size = New System.Drawing.Size(104, 29)
-        Me.RadioButtonMultiply.TabIndex = 10
+        Me.RadioButtonMultiply.TabIndex = 5
         Me.RadioButtonMultiply.TabStop = True
         Me.RadioButtonMultiply.Text = "Multiply"
         Me.RadioButtonMultiply.UseVisualStyleBackColor = True
@@ -229,7 +231,7 @@ Partial Class Project1
         Me.RadioButtonDivide.Location = New System.Drawing.Point(46, 227)
         Me.RadioButtonDivide.Name = "RadioButtonDivide"
         Me.RadioButtonDivide.Size = New System.Drawing.Size(90, 29)
-        Me.RadioButtonDivide.TabIndex = 11
+        Me.RadioButtonDivide.TabIndex = 6
         Me.RadioButtonDivide.TabStop = True
         Me.RadioButtonDivide.Text = "Divide"
         Me.RadioButtonDivide.UseVisualStyleBackColor = True
@@ -314,11 +316,11 @@ Partial Class Project1
         Me.Name = "Project1"
         Me.Text = "Math Contest"
         Me.GroupBox1.ResumeLayout(False)
-        Me.GroupBox1.PerformLayout()
+        Me.GroupBox1.PerformLayout
         Me.GroupBox2.ResumeLayout(False)
-        Me.GroupBox2.PerformLayout()
+        Me.GroupBox2.PerformLayout
         Me.GroupBox3.ResumeLayout(False)
-        Me.GroupBox3.PerformLayout()
+        Me.GroupBox3.PerformLayout
         Me.GroupBox4.ResumeLayout(False)
         Me.ResumeLayout(False)
 

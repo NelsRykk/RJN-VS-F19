@@ -2,21 +2,21 @@
 'RCET0265
 'asg 4-1
 '10 random numbers -10 to 10 
-'
+'https://github.com/NelsRykk/RJN-VS-F19/tree/master/ASG%208-1
 
-Option Explicit Off
-Option Strict Off
+Option Explicit On
+Option Strict On
 
 Public Class Form1
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        Dim randNum As Decimal
+        Dim randNum As Integer
         Dim symbol As String = ""
         Dim symbolGen As Integer
-
+        Dim symbolPad As String
         For i = 1 To 10
 
             randNum = CInt(VBMath.Rnd() * 10)
-            symbolGen = VBMath.Rnd()
+            symbolGen = CInt(VBMath.Rnd())
             If symbolGen = 0 Then
                 symbol = "-"
             End If
@@ -51,4 +51,11 @@ Public Class Form1
         End If
     End Sub
 
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        RndNumListBox.Items.Clear()
+    End Sub
+
+    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+        Me.Close()
+    End Sub
 End Class

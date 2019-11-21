@@ -178,36 +178,44 @@ Public Class Project1
     End Sub
 
     Private Sub SubmitButton_Click(sender As Object, e As EventArgs) Handles submitButton.Click
+        Dim pass As Integer
         person = nameBox.Text
-        If initialized = 0 Then                                     'This will enable a random first number and second number to be generated when initialized = 0
-            Try
-                age = CInt(ageBox.Text)
-            Catch ex As Exception
-                MessageBox.Show("Enter Correct age In the Age Box below")
-            End Try
+        'This will enable a random first number and second number to be generated when initialized = 0
+        If initialized = 0 Then
             Try
                 grade = CInt(gradeBox.Text)
             Catch ex As Exception
-                MessageBox.Show("Enter correct Grade in grade box as number ")
+                MessageBox.Show("Enter Your Grade")
             End Try
+            Try
+                age = CInt(ageBox.Text)
 
-            If Len(person) > 1 Then
-                If grade = 1 Then
+            Catch ex As Exception
+                MessageBox.Show("Enter Correct age In the Age Box below")
+            End Try
+            If age = CInt(7 Or 8 Or 9 Or 10 Or 11) Then
+
+                If Len(person) > 1 Then
+                    If grade = 1 Then
+                        FindNum()
+                    End If
+                    If grade = 2 Then
+                        FindNum()
+                    End If
+                    If grade = 3 Then
+                        FindNum()
+                    End If
+                    If grade = 4 Then
+                        FindNum()
+                    End If
                     FindNum()
+                ElseIf Len(person) = 0 Then
+                    MessageBox.Show("Enter Your name in the NameBox")
                 End If
-                If grade = 2 Then
-                    FindNum()
-                End If
-                If grade = 3 Then
-                    FindNum()
-                End If
-                If grade = 4 Then
-                    FindNum()
-                End If
-                FindNum()
-            ElseIf Len(person) = 0 Then
-                MessageBox.Show("Enter Your name in the NameBox")
+            Else
+                MessageBox.Show("Your age must be between 7 and 11")
             End If
+
         End If
         If initialized = 1 Then                             'When initialized = 1 then the math problem has not been answered 
             If answerBox.Text = CStr(answer) Then

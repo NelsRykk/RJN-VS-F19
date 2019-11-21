@@ -22,11 +22,13 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.DiceRollListBox = New System.Windows.Forms.ListBox()
         Me.ClearButton = New System.Windows.Forms.Button()
         Me.EndButton = New System.Windows.Forms.Button()
+        Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
         Me.SuspendLayout()
         '
         'Button1
@@ -35,7 +37,8 @@ Partial Class Form1
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(142, 55)
         Me.Button1.TabIndex = 0
-        Me.Button1.Text = "Roll Dice 10000 Times"
+        Me.Button1.Text = "&Roll Dice 10000 Times"
+        Me.ToolTip1.SetToolTip(Me.Button1, "This will Roll two dice and sum them 10000 times")
         Me.Button1.UseVisualStyleBackColor = True
         '
         'Button2
@@ -44,7 +47,8 @@ Partial Class Form1
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(142, 55)
         Me.Button2.TabIndex = 1
-        Me.Button2.Text = "Display Dice Rolled"
+        Me.Button2.Text = "&Display Dice Rolled"
+        Me.ToolTip1.SetToolTip(Me.Button2, "This will display the results of the Dice rolled")
         Me.Button2.UseVisualStyleBackColor = True
         '
         'DiceRollListBox
@@ -63,7 +67,8 @@ Partial Class Form1
         Me.ClearButton.Name = "ClearButton"
         Me.ClearButton.Size = New System.Drawing.Size(142, 55)
         Me.ClearButton.TabIndex = 3
-        Me.ClearButton.Text = "Clear"
+        Me.ClearButton.Text = "&Clear"
+        Me.ToolTip1.SetToolTip(Me.ClearButton, "This clears all data ")
         Me.ClearButton.UseVisualStyleBackColor = True
         '
         'EndButton
@@ -72,7 +77,8 @@ Partial Class Form1
         Me.EndButton.Name = "EndButton"
         Me.EndButton.Size = New System.Drawing.Size(142, 55)
         Me.EndButton.TabIndex = 4
-        Me.EndButton.Text = "Exit"
+        Me.EndButton.Text = "&Exit"
+        Me.ToolTip1.SetToolTip(Me.EndButton, "This Exits the program")
         Me.EndButton.UseVisualStyleBackColor = True
         '
         'Form1
@@ -96,4 +102,5 @@ Partial Class Form1
     Friend WithEvents DiceRollListBox As ListBox
     Friend WithEvents ClearButton As Button
     Friend WithEvents EndButton As Button
+    Friend WithEvents ToolTip1 As ToolTip
 End Class

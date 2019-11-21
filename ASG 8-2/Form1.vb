@@ -123,11 +123,16 @@ Public Class Form1
 
         For j = 0 To lastStep
             row = CStr(j).PadLeft(4)
-            If CInt(rollTotalArray(0, j)) = 2 Then
-                zero = "2".PadLeft(8)
-            Else
-                zero = "/".PadLeft(8)
-            End If
+            Try
+                If CInt(rollTotalArray(0, j)) = 2 Then
+                    zero = "2".PadLeft(8)
+                Else
+                    zero = "/".PadLeft(8)
+                End If
+            Catch
+                MessageBox.Show("No Data in array")
+                Me.Close()
+            End Try
             If CInt(rollTotalArray(1, j)) = 3 Then
                 one = "3".PadLeft(5)
             Else
@@ -188,5 +193,26 @@ Public Class Form1
 
     End Sub
 
+    Private Sub EndButton_Click(sender As Object, e As EventArgs) Handles EndButton.Click
+        Me.Close()
+    End Sub
 
+    Private Sub ClearButton_Click(sender As Object, e As EventArgs) Handles ClearButton.Click
+        DiceRollListBox.Items.Clear()
+        For j = 0 To 10000
+            rollTotalArray(10, j) = ""
+            rollTotalArray(9, j) = ""
+            rollTotalArray(8, j) = ""
+            rollTotalArray(7, j) = ""
+            rollTotalArray(6, j) = ""
+            rollTotalArray(5, j) = ""
+            rollTotalArray(4, j) = ""
+            rollTotalArray(3, j) = ""
+            rollTotalArray(3, j) = ""
+            rollTotalArray(2, j) = ""
+            rollTotalArray(1, j) = ""
+            rollTotalArray(0, j) = ""
+        Next
+    End Sub
 End Class
+

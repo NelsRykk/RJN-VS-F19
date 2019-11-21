@@ -1,8 +1,8 @@
 ﻿'Rykken Nelson
 'RCET0265
-'asg 4-1
+'asg 8-2
 'Dice Roller
-'https://github.com/NelsRykk/RJN-VS-F19/tree/master/ASG%208-1
+'https://github.com/NelsRykk/RJN-VS-F19/tree/master/ASG%208-2
 Public Class Form1
     Dim rollTotalArray(10, 10000) As String
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click

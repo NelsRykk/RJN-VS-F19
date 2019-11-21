@@ -22,10 +22,12 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.RndNumListBox = New System.Windows.Forms.ListBox()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
+        Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
         Me.SuspendLayout()
         '
         'Button1
@@ -37,6 +39,7 @@ Partial Class Form1
         Me.Button1.Size = New System.Drawing.Size(172, 61)
         Me.Button1.TabIndex = 0
         Me.Button1.Text = "&Random Numbers"
+        Me.ToolTip1.SetToolTip(Me.Button1, "displays 10 random numbers ")
         Me.Button1.UseVisualStyleBackColor = False
         '
         'RndNumListBox
@@ -59,6 +62,7 @@ Partial Class Form1
         Me.Button2.Size = New System.Drawing.Size(172, 61)
         Me.Button2.TabIndex = 1
         Me.Button2.Text = "&Clear"
+        Me.ToolTip1.SetToolTip(Me.Button2, "clears all numbers on display")
         Me.Button2.UseVisualStyleBackColor = False
         '
         'Button3
@@ -70,6 +74,7 @@ Partial Class Form1
         Me.Button3.Size = New System.Drawing.Size(172, 61)
         Me.Button3.TabIndex = 2
         Me.Button3.Text = "&Exit"
+        Me.ToolTip1.SetToolTip(Me.Button3, "exits program")
         Me.Button3.UseVisualStyleBackColor = False
         '
         'Form1
@@ -93,4 +98,5 @@ Partial Class Form1
     Friend WithEvents RndNumListBox As ListBox
     Friend WithEvents Button2 As Button
     Friend WithEvents Button3 As Button
+    Friend WithEvents ToolTip1 As ToolTip
 End Class

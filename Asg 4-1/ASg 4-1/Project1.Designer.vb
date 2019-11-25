@@ -22,6 +22,7 @@ Partial Class Project1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Me.nameBox = New System.Windows.Forms.RichTextBox()
         Me.firstNumberBox = New System.Windows.Forms.RichTextBox()
         Me.secondNumberBox = New System.Windows.Forms.RichTextBox()
@@ -46,11 +47,12 @@ Partial Class Project1
         Me.summaryButton = New System.Windows.Forms.Button()
         Me.exitButton = New System.Windows.Forms.Button()
         Me.GroupBox4 = New System.Windows.Forms.GroupBox()
-        Me.GroupBox1.SuspendLayout
-        Me.GroupBox2.SuspendLayout
-        Me.GroupBox3.SuspendLayout
-        Me.GroupBox4.SuspendLayout
-        Me.SuspendLayout
+        Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
+        Me.GroupBox1.SuspendLayout()
+        Me.GroupBox2.SuspendLayout()
+        Me.GroupBox3.SuspendLayout()
+        Me.GroupBox4.SuspendLayout()
+        Me.SuspendLayout()
         '
         'nameBox
         '
@@ -59,6 +61,7 @@ Partial Class Project1
         Me.nameBox.Size = New System.Drawing.Size(321, 43)
         Me.nameBox.TabIndex = 0
         Me.nameBox.Text = ""
+        Me.ToolTip1.SetToolTip(Me.nameBox, "Type In your Name")
         '
         'firstNumberBox
         '
@@ -85,6 +88,7 @@ Partial Class Project1
         Me.answerBox.Size = New System.Drawing.Size(321, 43)
         Me.answerBox.TabIndex = 5
         Me.answerBox.Text = ""
+        Me.ToolTip1.SetToolTip(Me.answerBox, "Type in your answer")
         '
         'GroupBox1
         '
@@ -136,6 +140,7 @@ Partial Class Project1
         Me.ageBox.Size = New System.Drawing.Size(54, 43)
         Me.ageBox.TabIndex = 1
         Me.ageBox.Text = ""
+        Me.ToolTip1.SetToolTip(Me.ageBox, "Type in your age , must be between 7 and 11")
         '
         'gradeBox
         '
@@ -144,6 +149,7 @@ Partial Class Project1
         Me.gradeBox.Size = New System.Drawing.Size(54, 43)
         Me.gradeBox.TabIndex = 2
         Me.gradeBox.Text = ""
+        Me.ToolTip1.SetToolTip(Me.gradeBox, "Type in your grade, must be between 1st to 4th")
         '
         'GroupBox2
         '
@@ -252,6 +258,7 @@ Partial Class Project1
         '
         'submitButton
         '
+        Me.submitButton.AccessibleDescription = ""
         Me.submitButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.submitButton.Location = New System.Drawing.Point(28, 39)
         Me.submitButton.Name = "submitButton"
@@ -262,6 +269,7 @@ Partial Class Project1
         '
         'clearButton
         '
+        Me.clearButton.DialogResult = System.Windows.Forms.DialogResult.Cancel
         Me.clearButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.clearButton.Location = New System.Drawing.Point(28, 136)
         Me.clearButton.Name = "clearButton"
@@ -277,7 +285,7 @@ Partial Class Project1
         Me.summaryButton.Name = "summaryButton"
         Me.summaryButton.Size = New System.Drawing.Size(180, 60)
         Me.summaryButton.TabIndex = 15
-        Me.summaryButton.Text = "Summary"
+        Me.summaryButton.Text = "&Summary"
         Me.summaryButton.UseVisualStyleBackColor = True
         '
         'exitButton
@@ -287,7 +295,7 @@ Partial Class Project1
         Me.exitButton.Name = "exitButton"
         Me.exitButton.Size = New System.Drawing.Size(180, 60)
         Me.exitButton.TabIndex = 16
-        Me.exitButton.Text = "Exit"
+        Me.exitButton.Text = "&Exit"
         Me.exitButton.UseVisualStyleBackColor = True
         '
         'GroupBox4
@@ -307,6 +315,8 @@ Partial Class Project1
         Me.AcceptButton = Me.submitButton
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.CancelButton = Me.clearButton
         Me.ClientSize = New System.Drawing.Size(800, 450)
         Me.Controls.Add(Me.GroupBox4)
         Me.Controls.Add(Me.GroupBox3)
@@ -316,11 +326,11 @@ Partial Class Project1
         Me.Name = "Project1"
         Me.Text = "Math Contest"
         Me.GroupBox1.ResumeLayout(False)
-        Me.GroupBox1.PerformLayout
+        Me.GroupBox1.PerformLayout()
         Me.GroupBox2.ResumeLayout(False)
-        Me.GroupBox2.PerformLayout
+        Me.GroupBox2.PerformLayout()
         Me.GroupBox3.ResumeLayout(False)
-        Me.GroupBox3.PerformLayout
+        Me.GroupBox3.PerformLayout()
         Me.GroupBox4.ResumeLayout(False)
         Me.ResumeLayout(False)
 
@@ -350,4 +360,5 @@ Partial Class Project1
     Friend WithEvents summaryButton As Button
     Friend WithEvents exitButton As Button
     Friend WithEvents GroupBox4 As GroupBox
+    Friend WithEvents ToolTip1 As ToolTip
 End Class

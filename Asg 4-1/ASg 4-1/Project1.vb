@@ -21,6 +21,7 @@ Public Class Project1
     Dim total As Integer
 
     Sub FindNum()                                                           ' this will randomize the number 
+        answerBox.Focus()
         If grade = 1 And initialized = 0 Then                               'Initialized has to be zero to find new number 
             firstNumber = CInt(Rnd() * 10)
             secondNumber = CInt(Rnd() * 10)
@@ -178,7 +179,6 @@ Public Class Project1
     End Sub
 
     Private Sub SubmitButton_Click(sender As Object, e As EventArgs) Handles submitButton.Click
-        Dim pass As Integer
         person = nameBox.Text
         'This will enable a random first number and second number to be generated when initialized = 0
         If initialized = 0 Then
@@ -193,8 +193,7 @@ Public Class Project1
             Catch ex As Exception
                 MessageBox.Show("Enter Correct age In the Age Box below")
             End Try
-            If age = CInt(7 Or 8 Or 9 Or 10 Or 11) Then
-
+            If age >= 7 And age <= 11 Then
                 If Len(person) > 1 Then
                     If grade = 1 Then
                         FindNum()
@@ -210,10 +209,12 @@ Public Class Project1
                     End If
                     FindNum()
                 ElseIf Len(person) = 0 Then
+                    nameBox.Focus()
                     MessageBox.Show("Enter Your name in the NameBox")
                 End If
             Else
-                MessageBox.Show("Your age must be between 7 and 11")
+                ageBox.Focus()
+                MessageBox.Show("Student Not Eligable To Compete")
             End If
 
         End If
@@ -245,6 +246,7 @@ Public Class Project1
     End Sub
 
     Private Sub Project1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        RadioButtonAdd.Select()
         initialized = 0
     End Sub
 
@@ -264,6 +266,6 @@ Public Class Project1
         RadioButtonSubtract.Checked = False
         RadioButtonMultiply.Checked = False
         RadioButtonDivide.Checked = False
-
+        RadioButtonAdd.Select()
     End Sub
 End Class

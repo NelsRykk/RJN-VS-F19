@@ -2,7 +2,10 @@
 'VisualBasics 
 'Sprint 1 
 '12/3/19
+'https://github.com/NelsRykk/RJN-VS-F19/tree/master/Sprint%201
 
+Option Explicit On
+Option Strict On
 Public Class Form1
 
     Private Sub ConvertButton_Click(sender As Object, e As EventArgs) Handles ConvertButton.Click

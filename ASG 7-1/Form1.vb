@@ -11,6 +11,9 @@
         ListBox1.Left = Me.Left + 5
         ListBox1.Width = Me.Width - 10
     End Sub
+    Private Sub Calculate()
+
+    End Sub
 End Class
 'If Me.Width < 300 Then Me.Width = 300
 '        ListBox1.Left = Me.Left + 5

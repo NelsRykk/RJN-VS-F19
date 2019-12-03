@@ -37,6 +37,7 @@ Partial Class Form1
         Me.CalculateToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.ClearToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.SummaryToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ListBox1 = New System.Windows.Forms.ListBox()
         Me.MenuStrip1.SuspendLayout()
         Me.ContextMenuStrip1.SuspendLayout()
         Me.SuspendLayout()
@@ -60,7 +61,7 @@ Partial Class Form1
         'ExitToolStripMenuItem
         '
         Me.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem"
-        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(93, 22)
         Me.ExitToolStripMenuItem.Text = "&Exit"
         '
         'EditToolStripMenuItem
@@ -73,19 +74,19 @@ Partial Class Form1
         'CalculateToolStripMenuItem
         '
         Me.CalculateToolStripMenuItem.Name = "CalculateToolStripMenuItem"
-        Me.CalculateToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.CalculateToolStripMenuItem.Size = New System.Drawing.Size(125, 22)
         Me.CalculateToolStripMenuItem.Text = "&Calculate"
         '
         'ClearToolStripMenuItem
         '
         Me.ClearToolStripMenuItem.Name = "ClearToolStripMenuItem"
-        Me.ClearToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.ClearToolStripMenuItem.Size = New System.Drawing.Size(125, 22)
         Me.ClearToolStripMenuItem.Text = "C&lear"
         '
         'SummaryToolStripMenuItem
         '
         Me.SummaryToolStripMenuItem.Name = "SummaryToolStripMenuItem"
-        Me.SummaryToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.SummaryToolStripMenuItem.Size = New System.Drawing.Size(125, 22)
         Me.SummaryToolStripMenuItem.Text = "&Summary"
         '
         'HelpToolStripMenuItem
@@ -98,7 +99,7 @@ Partial Class Form1
         'AboutToolStripMenuItem
         '
         Me.AboutToolStripMenuItem.Name = "AboutToolStripMenuItem"
-        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(107, 22)
         Me.AboutToolStripMenuItem.Text = "&About"
         '
         'ContextMenuStrip1
@@ -116,26 +117,35 @@ Partial Class Form1
         'CalculateToolStripMenuItem1
         '
         Me.CalculateToolStripMenuItem1.Name = "CalculateToolStripMenuItem1"
-        Me.CalculateToolStripMenuItem1.Size = New System.Drawing.Size(180, 22)
+        Me.CalculateToolStripMenuItem1.Size = New System.Drawing.Size(125, 22)
         Me.CalculateToolStripMenuItem1.Text = "&Calculate"
         '
         'ClearToolStripMenuItem1
         '
         Me.ClearToolStripMenuItem1.Name = "ClearToolStripMenuItem1"
-        Me.ClearToolStripMenuItem1.Size = New System.Drawing.Size(180, 22)
+        Me.ClearToolStripMenuItem1.Size = New System.Drawing.Size(125, 22)
         Me.ClearToolStripMenuItem1.Text = "C&lear"
         '
         'SummaryToolStripMenuItem1
         '
         Me.SummaryToolStripMenuItem1.Name = "SummaryToolStripMenuItem1"
-        Me.SummaryToolStripMenuItem1.Size = New System.Drawing.Size(180, 22)
+        Me.SummaryToolStripMenuItem1.Size = New System.Drawing.Size(125, 22)
         Me.SummaryToolStripMenuItem1.Text = "&Summary"
+        '
+        'ListBox1
+        '
+        Me.ListBox1.FormattingEnabled = True
+        Me.ListBox1.Location = New System.Drawing.Point(12, 35)
+        Me.ListBox1.Name = "ListBox1"
+        Me.ListBox1.Size = New System.Drawing.Size(776, 407)
+        Me.ListBox1.TabIndex = 1
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.ListBox1)
         Me.Controls.Add(Me.MenuStrip1)
         Me.MainMenuStrip = Me.MenuStrip1
         Me.Name = "Form1"
@@ -162,4 +172,5 @@ Partial Class Form1
     Friend WithEvents CalculateToolStripMenuItem1 As ToolStripMenuItem
     Friend WithEvents ClearToolStripMenuItem1 As ToolStripMenuItem
     Friend WithEvents SummaryToolStripMenuItem1 As ToolStripMenuItem
+    Friend WithEvents ListBox1 As ListBox
 End Class

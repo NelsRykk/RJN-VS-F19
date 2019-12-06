@@ -157,30 +157,6 @@ Public Class Form1
     End Sub
 
     'In as few lines as possible produce the same results as the function IsWayTooLong()
-    'Hint use a loop and a List or Array
-    'Also only have one return statement at the end
-    'Private Function ShortAndSweet(ByVal numberFromZeroToFifteen As Integer) As String
-    '    'Your code here
-    '    If numberFromZeroToFifteen = 0 Then : Return "Your Number is : Zero"
-    '    ElseIf numberFromZeroToFifteen = 0 Then : Return "Your Number is : Zero"
-    '    ElseIf numberFromZeroToFifteen = 1 Then : Return "Your Number is : One"
-    '    ElseIf numberFromZeroToFifteen = 2 Then : Return "Your Number is : Two"
-    '    ElseIf numberFromZeroToFifteen = 3 Then : Return "Your Number is : Three"
-    '    ElseIf numberFromZeroToFifteen = 4 Then : Return "Your Number is : Four"
-    '    ElseIf numberFromZeroToFifteen = 5 Then : Return "Your Number is : Five"
-    '    ElseIf numberFromZeroToFifteen = 6 Then : Return "Your Number is : Six"
-    '    ElseIf numberFromZeroToFifteen = 7 Then : Return "Your Number is : Seven"
-    '    ElseIf numberFromZeroToFifteen = 8 Then : Return "Your Number is : Eight"
-    '    ElseIf numberFromZeroToFifteen = 9 Then : Return "Your Number is : Nine"
-    '    ElseIf numberFromZeroToFifteen = 10 Then : Return "Your Number is : Ten"
-    '    ElseIf numberFromZeroToFifteen = 11 Then : Return "Your Number is : Eleven"
-    '    ElseIf numberFromZeroToFifteen = 12 Then : Return "Your Number is : Twelve"
-    '    ElseIf numberFromZeroToFifteen = 13 Then : Return "Your Number is : Thirteen"
-    '    ElseIf numberFromZeroToFifteen = 14 Then : Return "Your Number is : Fourteen"
-    '    ElseIf numberFromZeroToFifteen = 15 Then : Return "Your Number is : Fifteen"
-    '    ElseIf numberFromZeroToFifteen < 0 Or numberFromZeroToFifteen > 15 Then : Return "your number is outside of specified parameters"
-    '    End If
-    'End Function
     Private Function ShortAndSweet(ByVal numberFromZeroToFifteen As Integer) As String
         Dim numberArray(16, 0) As String
         Dim word As String
@@ -189,6 +165,4 @@ Public Class Form1
         Else word = CStr(numberArray(numberFromZeroToFifteen, 0)) : Return word
         End If
     End Function
-
-
 End Class

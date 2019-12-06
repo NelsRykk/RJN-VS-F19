@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29230.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Sprint 2", "Sprint 2.vbproj", "{32FCBED2-3141-4418-B2E8-E25AE9FD49AF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32FCBED2-3141-4418-B2E8-E25AE9FD49AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32FCBED2-3141-4418-B2E8-E25AE9FD49AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32FCBED2-3141-4418-B2E8-E25AE9FD49AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32FCBED2-3141-4418-B2E8-E25AE9FD49AF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {17795C9F-D2BF-4E29-8A26-81D90DA22148}
+	EndGlobalSection
+EndGlobal

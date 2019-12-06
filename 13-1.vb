@@ -123,9 +123,11 @@ Public Class DrawButton
 
         For rad = 5 To PictureBox1.Width - 5
             If rad = 5 Or rad = PictureBox1.Width - 5 Then
+                rad = 5
                 y1 = PictureBox1.Height / 2
                 y2 = y1
             Else
+                'I understand this way much better then below for drawing the sinewave
                 y1 = Math.Sin(rad / ((PictureBox1.Width - 10) / 2) * Math.PI) * ((PictureBox1.Height / 2 - 10)) + (PictureBox1.Height / 2)
             End If
             'Math.Sin(rad / 175 * 2 * Math.PI) * 150 + 150

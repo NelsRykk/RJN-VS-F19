@@ -162,7 +162,7 @@ Public Class Form1
         Dim word As String
         numberArray = {{"Zero"}, {"One"}, {"Two"}, {"Three"}, {"Four"}, {"Five"}, {"Six"}, {"Seven"}, {"Eight"}, {"Nine"}, {"Ten"}, {"Eleven"}, {"Twelve"}, {"Thirteen"}, {"Fourteen"}, {"Fifteen"}}
         If numberFromZeroToFifteen > 15 Or numberFromZeroToFifteen < 0 Then : Return "your number is outside of specified parameters"
-        Else word = CStr(numberArray(numberFromZeroToFifteen, 0)) : Return word
+        Else word = CStr(numberArray(numberFromZeroToFifteen, 0)) : Return "Your Number is : " & word
         End If
     End Function
 End Class

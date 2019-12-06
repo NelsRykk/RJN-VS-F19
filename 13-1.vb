@@ -2,7 +2,7 @@
 'RCET0265
 'asg WK 6-1
 'EtchOSketch
-'
+'https://github.com/NelsRykk/RJN-VS-F19/tree/master/Wk%206-1
 Public Class DrawButton
     Dim newColor As Color
     Private Sub Form1_Resize(ByVal sender As Object, e As EventArgs) Handles Me.Resize
